@@ -1,0 +1,12 @@
+{
+    "Terra": [
+        "https://dev.terra.biodatacatalyst.nhlbi.nih.gov/",
+        "https://alpha.terra.biodatacatalyst.nhlbi.nih.gov/",
+        "https://terra.biodatacatalyst.nhlbi.nih.gov/"
+    ],
+    "Gen3": [
+        "https://dev.gen3.biodatacatalyst.nhlbi.nih.gov/",
+        "https://staging.gen3.biodatacatalyst.nhlbi.nih.gov/",
+        "https://gen3.biodatacatalyst.nhlbi.nih.gov/"
+    ]
+}
