@@ -8,5 +8,9 @@
         "https://dev.gen3.biodatacatalyst.nhlbi.nih.gov/",
         "https://staging.gen3.biodatacatalyst.nhlbi.nih.gov/",
         "https://gen3.biodatacatalyst.nhlbi.nih.gov/"
+    ],
+    "Dockstore": [
+        "https://dockstore.org/",
+        "https://staging.dockstore.org/"
     ]
 }

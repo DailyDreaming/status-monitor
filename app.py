@@ -21,6 +21,43 @@ for group, urls in endpoints.items():
 statuses = {}
 
 
+firecloud_status = 'https://api.firecloud.org/status'
+proper_reply = {
+  "ok": True,
+  "systems": {
+    "Thurloe": {
+      "ok": True
+    },
+    "Sam": {
+      "ok": True
+    },
+    "Consent": {
+      "ok": True
+    },
+    "is_admin_sa_registered": {
+      "ok": True
+    },
+    "Rawls": {
+      "ok": True
+    },
+    "Agora": {
+      "ok": True
+    },
+    "is_trial_billing_sa_registered": {
+      "ok": True
+    },
+    "GoogleBuckets": {
+      "ok": True
+    },
+    "LibraryIndex": {
+      "ok": True
+    },
+    "OntologyIndex": {
+      "ok": True
+    }
+  }
+}
+
 class LoopStatus:
     def __init__(self, time_to_sleep):
         self.lock = threading.Lock()
